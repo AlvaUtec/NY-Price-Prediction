@@ -12,7 +12,7 @@ def get_sublocalities():
 
 def get_estimated_price(sublocality, sqft, bath, beds):
     try:
-        loc_index = _data_columns.index(sublocality.lower())
+        loc_index = _data_columns.index(sublocality)
     except:
         loc_index = -1
 
@@ -23,7 +23,7 @@ def get_estimated_price(sublocality, sqft, bath, beds):
 
     if loc_index >= 0:
         x[loc_index] = 1
-    
+
     return round(_model.predict([x])[0],2)
 
 def load_saved_artifacts():
