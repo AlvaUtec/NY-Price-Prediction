@@ -1,4 +1,4 @@
-# Project Name
+# NY House price prediction
 
 ## Description
 
@@ -15,7 +15,7 @@ The dataset includes various features such as the number of bedrooms, bathrooms,
 
 This project is a valuable tool for real estate agents, homebuyers, and investors who want to make informed decisions based on data-driven insights. It showcases the application of advanced machine learning techniques to solve real-world problems and provides a foundation for further enhancements and customization.
 ## Table of Contents
-- [Project Name](#project-name)
+- [NY House price prediction](#ny-house-price-prediction)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
